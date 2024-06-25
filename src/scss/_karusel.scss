@@ -1,0 +1,83 @@
+// Carousel.scss
+
+.carousel-wrapper {
+  width: 1240px;
+  margin: auto;
+  margin-top: 15px;
+  position: relative;
+}
+
+.slick-list {
+  border-radius: 10px;
+}
+.custom-prev-button {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  z-index: 9;
+  align-items: center;
+  background: #f2f4f7;
+  border: 1px solid rgba(54, 54, 64, 0.25);
+
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  opacity: 0.5;
+  position: absolute;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+  z-index: 1;
+}
+.custom-next-button {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  z-index: 9;
+  align-items: center;
+  background: #f2f4f7;
+  border: 1px solid rgba(54, 54, 64, 0.25);
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  opacity: 0.5;
+  position: absolute;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+  z-index: 1;
+}
+.carousel {
+  .prev {
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(169, 120, 242);
+    left: 16px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 24px;
+    z-index: 10;
+  }
+  .next {
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(169, 120, 242);
+    right: 16px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 24px;
+    z-index: 99;
+  }
+}

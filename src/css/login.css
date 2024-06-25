@@ -1,0 +1,29 @@
+.login_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.login_wrapper .login {
+  width: 414px;
+  height: 482px;
+  border-radius: 10px;
+  border: 1px solid rgba(54, 54, 64, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login_wrapper .login form {
+  display: flex;
+  flex-direction: column;
+}
+.login_wrapper .login form input {
+  width: 350px;
+  height: 52px;
+  border-radius: 12px;
+}
+.login_wrapper .login form button {
+  width: 350px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #7000ff;
+}/*# sourceMappingURL=login.css.map */

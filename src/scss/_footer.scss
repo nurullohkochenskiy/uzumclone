@@ -1,0 +1,94 @@
+.footer_container {
+  margin: 0 auto;
+  width: 1240px;
+  .footer_container_cards {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 56px;
+    .footer_container_cards_card {
+      margin-right: 150px;
+      .footer_container_cards_card_title {
+        font-weight: 700;
+        margin-bottom: 18px;
+        font-family: roboto;
+      }
+      .footer_container_cards_card_title:hover {
+        cursor: pointer;
+      }
+      .footer_container_cards_card_text {
+        margin-bottom: 18px;
+        font-family: roboto;
+        color: rgb(136, 135, 135);
+        font-size: 13px;
+      }
+      .footer_container_cards_card_text:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+.ui-icon-facebook {
+  background: rgb(0, 0, 36, 36);
+}
+.download {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.download:hover {
+  cursor: pointer;
+}
+.download_text {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.aaa {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.flex_icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex_icon {
+  width: 30px;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}
+.flex_icon:hover {
+  cursor: pointer;
+}
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.end_text {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 15px;
+}
+.end_text:hover {
+  cursor: pointer;
+}
+.bbb {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: gray;
+}
